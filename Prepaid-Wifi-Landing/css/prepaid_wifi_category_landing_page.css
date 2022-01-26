@@ -390,6 +390,64 @@ body {
   top: -5px;
 }
 
+.prpd-wf-ctgry .pwc-dvcs .pwc-wrp-item .pwc-dvc-dtls .pwc_spcs-bx .pwc_prdct_status:before {
+  content: "";
+  height: 1px;
+  background: #bcc4cd;
+  display: block;
+  position: relative;
+  width: calc(100% + 40px);
+  left: -15px;
+  margin-bottom: 25px;
+}
+
+.prpd-wf-ctgry .pwc-dvcs .pwc-wrp-item .pwc-dvc-dtls .pwc_spcs-bx .pwc_prdct_status:after {
+  content: "";
+  height: 1px;
+  background: #bcc4cd;
+  display: block;
+  position: relative;
+  width: calc(100% + 40px);
+  left: -15px;
+  margin-top: 25px;
+}
+
+.prpd-wf-ctgry .pwc-dvcs .pwc-wrp-item .pwc-dvc-dtls .pwc_spcs-bx .pwc_prdct_status .pwc-stocktus {
+  color: #0dc599;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Neue Plak Bold", Arial, Helvetica, sans-serif;
+  text-transform: initial;
+  position: relative;
+  margin-left: 30px;
+}
+
+.prpd-wf-ctgry .pwc-dvcs .pwc-wrp-item .pwc-dvc-dtls .pwc_spcs-bx .pwc_prdct_status .pwc-stocktus:before {
+  content: url(../img/stock-icon.png);
+  width: 21px;
+  height: 23px;
+  position: absolute;
+  left: -35px;
+  top: -5px;
+}
+
+.prpd-wf-ctgry .pwc-dvcs .pwc-wrp-item .pwc-dvc-dtls .pwc_spcs-bx .pwc_price_bx .pwc-crrnt-price {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.prpd-wf-ctgry .pwc-dvcs .pwc-wrp-item .pwc-dvc-dtls .pwc_spcs-bx .pwc_price_bx .pwc-less-amnt {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.prpd-wf-ctgry .pwc-dvcs .pwc-wrp-item .pwc-dvc-dtls .pwc_spcs-bx .pwc_price_bx span {
+  display: block;
+  color: #1f3b59;
+  font-family: "Neue Plak Bold", Arial, Helvetica, sans-serif;
+}
+
 .prpd-wf-ctgry .pwc-dvcs .pwc-wrp-item .pwc-dvc-dtls .pwc_spcs-bx .pwc_spcs_lst {
   margin: 40px 0;
 }
@@ -404,13 +462,14 @@ body {
   font-family: "Neue Plak Bold", Arial, Helvetica, sans-serif;
   margin: 10px 0;
   font-size: 18px;
+  line-height: 28px;
 }
 
 .prpd-wf-ctgry .pwc-dvcs .pwc-wrp-item .pwc-dvc-dtls .pwc_spcs-bx .pwc_spcs_lst span {
   color: #0e3370;
   font-family: "Neue Plak Bold", Arial, Helvetica, sans-serif;
   margin: 10px 0;
-  font-size: 13;
+  font-size: 13px;
   font-weight: 300;
   text-transform: uppercase;
 }
