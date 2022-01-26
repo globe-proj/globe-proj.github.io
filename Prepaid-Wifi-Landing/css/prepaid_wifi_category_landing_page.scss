@@ -379,7 +379,64 @@ body {
             position: relative;
             width: calc(100% + 40px);
             left: -15px;
+
             top: -5px;
+          }
+          .pwc_prdct_status {
+            &:before {
+              content: "";
+              height: 1px;
+              background: #bcc4cd;
+              display: block;
+              position: relative;
+              width: calc(100% + 40px);
+              left: -15px;
+              margin-bottom: 25px;
+            }
+            &:after {
+              content: "";
+              height: 1px;
+              background: #bcc4cd;
+              display: block;
+              position: relative;
+              width: calc(100% + 40px);
+              left: -15px;
+              margin-top: 25px;
+            }
+            .pwc-stocktus {
+              color: #0dc599;
+              font-size: 16px;
+              font-weight: 700;
+              font-family: "Neue Plak Bold", Arial, Helvetica, sans-serif;
+              text-transform: initial;
+              position: relative;
+              margin-left: 30px;
+
+              &:before {
+                content: url(../img/stock-icon.png);
+                width: 21px;
+                height: 23px;
+                position: absolute;
+                left: -35px;
+                top: -5px;
+              }
+            }
+          }
+          .pwc_price_bx {
+            .pwc-crrnt-price {
+              font-size: 28px;
+              font-weight: 700;
+            }
+            .pwc-less-amnt {
+              font-size: 16px;
+              font-weight: 700;
+              text-decoration: line-through;
+            }
+            span {
+              display: block;
+              color: #1f3b59;
+              font-family: "Neue Plak Bold", Arial, Helvetica, sans-serif;
+            }
           }
           .pwc_spcs_lst {
             margin: 40px 0;
@@ -392,12 +449,13 @@ body {
               font-family: "Neue Plak Bold", Arial, Helvetica, sans-serif;
               margin: 10px 0;
               font-size: 18px;
+              line-height: 28px;
             }
             span {
               color: $f-color-specblue;
               font-family: "Neue Plak Bold", Arial, Helvetica, sans-serif;
               margin: 10px 0;
-              font-size: 13;
+              font-size: 13px;
               font-weight: 300;
               text-transform: uppercase;
             }
